@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubLink }) => {
             <div className="proj-imgbx" onClick={handleGitHubRedirect}>
                 <img src={imgUrl} />
                 <div className="proj-txtx">
-                    <h4>{title}</h4>
+                    <h5>{title}</h5>
                     <span>{description}</span>
                 </div>
             </div>

@@ -19,13 +19,14 @@ export const Projects = () => {
         },
         {
             title: "Survey",
-            description: "Java OOP",
+            description: "Full-stack application with PHP and React ",
             imgUrl: projImg1,
             githubLink: ""
         },
         {
             title: "Plantify",
-            description: "Full stack application under develpoment",
+            description:`Full-stack Java and React application
+under development`,
             imgUrl: projImg1,
             githubLink: "https://github.com/CodecoolGlobal/el-proyecte-grande-sprint-1-java-Laszlo-Varga"
         },

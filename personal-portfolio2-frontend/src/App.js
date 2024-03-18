@@ -1,21 +1,22 @@
-import logo from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/logo.svg"
-import '/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/App.css';
+import logo from "./assets/img/logo.svg";
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {NavBar} from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/components/NavBar.js";
-import {Banner} from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/components/Banner.js";
-import {Skill} from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/components/Skill.js"
-import {Projects} from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/components/Projects.js"
-import {Contact} from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/components/Contact.js";
+import { NavBar } from "./components/NavBar.js";
+import { Banner } from "./components/Banner.js";
+import { Skill } from "./components/Skill.js";
+import { Projects } from "./components/Projects.js";
+import { Contact } from "./components/Contact.js";
+
 function App() {
-  return (
-    <div className="App">
-         <NavBar />
-         <Banner />
-        <Skill />
-        <Projects />
-        <Contact />
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavBar />
+            <Banner />
+            <Skill />
+            <Projects />
+            <Contact />
+        </div>
+    );
 }
 
 export default App;

@@ -425,14 +425,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 5px; /* például kisebb border-radius */
+  border-radius: 5px;
   overflow: hidden;
   margin-bottom: 5px;
   padding: 5px;
 }
 .proj-imgbx:hover {
-  pointer-events: auto; /* kattinthatóvá teszi a hover hatás után */
-  cursor: pointer; /* kurzor GitHub ikonná változik a kattinthatóvá válásakor */
+  pointer-events: auto;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";
@@ -517,17 +517,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
 }
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
-  color: #121212;
+  color: white;
   opacity: 0.8;
 }
 .contact form button {
   font-weight: 700;
-  color: #000;
-  background-color: #fff;
+  color: blueviolet;
+  background-color: white;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -538,17 +538,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover {
   color: #fff;
 }
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
+
 .contact form button:hover::before {
   width: 100%;
 }
@@ -560,6 +550,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.contact form button:hover {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  color: #fff;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -616,7 +610,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 20px 65px;
-  color: #fff;
+  color: #0000FF;
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
@@ -624,6 +618,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer img {
   width: 26%;
 }
+
 .footer p {
   font-weight: 400;
   font-size: 14px;

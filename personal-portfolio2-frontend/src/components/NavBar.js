@@ -63,12 +63,9 @@ export const NavBar = () => {
   <a href="  https://www.codewars.com/users/gaborati" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon2} alt="CodeWars"/>
                 </a>
-
   <a href="https://github.com/gaborati" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon3} alt="GitHub"/>
                 </a>
-
-
 
               </div>
               <HashLink to='#connect'>

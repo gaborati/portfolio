@@ -29,12 +29,12 @@ export const Contact = () => {
 
         emailjs
             .send(
-                "", "t",
+               process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE ,
                 {
                     from_name: form.name,
-                    to_name: "",
+                    to_name: process.env.REACT_APP_NAME ,
                     from_email: form.email,
-                    to_email: "",
+                    to_email: process.env.REACT_APP_EMAIL,
                     message: form.message,
                 },
                 ""

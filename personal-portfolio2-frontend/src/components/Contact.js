@@ -12,6 +12,9 @@ export const Contact = () => {
     });
 
     const [loading, setLoading] = useState(false);
+    const serviceId = process.env.REACT_APP_SERVICE;
+    const templateId = process.env.REACT_APP_TEMPLATE;
+    const userId = process.env.REACT_APP_CODE;
 
     const handleChange = (e) => {
         const { target } = e;
@@ -29,7 +32,7 @@ export const Contact = () => {
 
         emailjs
             .send(
-               process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE ,
+               process.env.REACT_APP_SERVICE , process.env.REACT_APP_TEMPLATE,
                 {
                     from_name: form.name,
                     to_name: process.env.REACT_APP_NAME ,
@@ -37,7 +40,7 @@ export const Contact = () => {
                     to_email: process.env.REACT_APP_EMAIL,
                     message: form.message,
                 },
-                ""
+                process.env.REACT_APP_CODE,
             )
             .then(
                 () => {

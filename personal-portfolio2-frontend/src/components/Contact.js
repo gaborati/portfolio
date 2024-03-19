@@ -78,7 +78,6 @@ export const Contact = () => {
                                                        name="name"
                                                        onChange={handleChange}/>
                                             </Col>
-
                                             <Col size={12} sm={6} className="px-1">
                                                 <input type="email" value={form.email}
                                                        placeholder="Email Address"
@@ -89,7 +88,6 @@ export const Contact = () => {
                                                 <textarea rows="6" value={form.message} placeholder="Message"
                                                           name="message"
                                                           onChange={handleChange}></textarea>
-
                                             </Col>
                                             <Col size={12} className="px-1">
                                                 <button type="submit" disabled={loading}>

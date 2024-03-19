@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/bruteForce.png";
 import projImg2 from "../assets/img/plant.png"
+import projImg3 from "../assets/img/survey.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 
@@ -19,13 +20,12 @@ export const Projects = () => {
         {
             title: "Survey",
             description: "Full-stack application with PHP and React ",
-            imgUrl: projImg1,
-            githubLink: ""
+            imgUrl: projImg3,
+            githubLink: "https://github.com/ori-123/surveypilot"
         },
         {
             title: "Plantify",
-            description:`Full-stack Java and React application
-under development`,
+            description:`Full-stack Java and React application under development `,
             imgUrl: projImg2,
             githubLink: "https://github.com/CodecoolGlobal/el-proyecte-grande-sprint-1-java-Laszlo-Varga"
         },

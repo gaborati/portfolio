@@ -20,7 +20,7 @@ export const Banner = () => {
                                     <div >
                                         <span className="tagline">Welcome to my Portfolio</span>
                                         <h1>{`Hi! I'm Ati Full-Stack Developer`}</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        <p>Throughout my life, I have worked in environments that prioritize both physical and mental well-being. Embracing demanding training programs and a purposeful lifestyle, I have acquired valuable insights into the critical roles of time management and self-discipline. These experiences have not only enhanced my ability to navigate daily challenges more efficiently but have also fortified my determination towards achieving the goals I aspire to reach.I'm skilled in Java backend development, enabling me to create robust and scalable solutions for various challenges. Furthermore In React frontend development, I can create interfaces that not only look good but also work smoothly.</p>
                                     </div>}
                             </TrackVisibility>
                         </Col>

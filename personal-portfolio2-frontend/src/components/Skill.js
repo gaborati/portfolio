@@ -1,13 +1,13 @@
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import meter1 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/php.svg"
-import meter2 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/java.svg"
-import meter3 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/javascript.svg"
-import meter4 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/mongoDB.svg"
-import meter5 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/mysql.svg"
-import meter6 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/react.svg"
-import meter7 from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/linux.svg"
-import colorSharp from "/Users/gaborattila/Desktop/portfolio/personal-portfolio2-frontend/src/assets/img/color-sharp.png"
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import meter1 from "../assets/img/php.svg"
+import meter2 from "../assets/img/java.svg"
+import meter3 from "../assets/img/javascript.svg"
+import meter4 from "../assets/img/mongoDB.svg"
+import meter5 from "../assets/img/mysql.svg"
+import meter6 from "../assets/img/react.svg"
+import meter7 from "../assets/img/linux.svg"
+import colorSharp from "../assets/img/color-sharp.png"
 export const Skill = () => {
     const responsive = {
         superLargeDesktop: {

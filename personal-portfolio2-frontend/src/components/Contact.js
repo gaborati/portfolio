@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export const Contact = () => {
     const [form, setForm] = useState({

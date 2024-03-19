@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/bruteForce.png";
+import projImg2 from "../assets/img/plant.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 
@@ -25,7 +26,7 @@ export const Projects = () => {
             title: "Plantify",
             description:`Full-stack Java and React application
 under development`,
-            imgUrl: projImg1,
+            imgUrl: projImg2,
             githubLink: "https://github.com/CodecoolGlobal/el-proyecte-grande-sprint-1-java-Laszlo-Varga"
         },
     ];

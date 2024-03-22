@@ -22,6 +22,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
@@ -85,7 +86,9 @@ input:focus, textarea:focus, select:focus {
     padding: 0 150px;
   }
 }
-
+.banner {
+  padding-top: 100px; /* Válassza ki a megfelelő értéket a navigációs sáv magasságától függően */
+}
 
 
 
@@ -637,6 +640,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer img {
   width: 26%;
 }
+
 
 .footer p {
   font-weight: 400;

@@ -12,9 +12,7 @@ export const Contact = () => {
     });
 
     const [loading, setLoading] = useState(false);
-    const serviceId = process.env.REACT_APP_SERVICE;
-    const templateId = process.env.REACT_APP_TEMPLATE;
-    const userId = process.env.REACT_APP_CODE;
+
 
     const handleChange = (e) => {
         const { target } = e;
@@ -32,7 +30,7 @@ export const Contact = () => {
 
         emailjs
             .send(
-               process.env.REACT_APP_SERVICE , process.env.REACT_APP_TEMPLATE,
+                process.env.REACT_APP_SERVICE , process.env.REACT_APP_TEMPLATE,
                 {
                     from_name: form.name,
                     to_name: process.env.REACT_APP_NAME ,
@@ -65,34 +63,32 @@ export const Contact = () => {
     return (
         <section className="contact" id="connect">
             <Container>
-                <Row className="align-items-center">
-                    <Col size={12} md={6}>
-                    </Col>
-                    <Col size={12} md={6}>
+                <Row className="justify-content-center align-items-center">
+                    <Col xs={12} md={6}>
                         <TrackVisibility>
-                            {({isVisible}) =>
-                                <div className={isVisible }>
+                            {({ isVisible }) =>
+                                <div className={isVisible}>
                                     <h2>Get In Touch</h2>
                                     <form onSubmit={handleSubmit}>
                                         <Row>
-                                            <Col size={12} sm={6} className="px-1">
+                                            <Col xs={12} sm={6} className="px-1">
                                                 <input type="text" value={form.name}
                                                        placeholder="Name"
                                                        name="name"
                                                        onChange={handleChange}/>
                                             </Col>
-                                            <Col size={12} sm={6} className="px-1">
+                                            <Col xs={12} sm={6} className="px-1">
                                                 <input type="email" value={form.email}
                                                        placeholder="Email Address"
                                                        name="email"
                                                        onChange={handleChange}/>
                                             </Col>
-                                            <Col size={12} className="px-1">
+                                            <Col xs={12} className="px-1">
                                                 <textarea rows="6" value={form.message} placeholder="Message"
                                                           name="message"
                                                           onChange={handleChange}></textarea>
                                             </Col>
-                                            <Col size={12} className="px-1">
+                                            <Col xs={12} className="px-1">
                                                 <button type="submit" disabled={loading}>
                                                     {loading ? 'Sending...' : 'Send'}
                                                 </button>

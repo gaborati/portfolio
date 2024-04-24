@@ -1,7 +1,5 @@
 <h1 align="center">Personal Portfolio</h1>
-
   <p align="center">
-  <a href="https://github.com/ori-123/surveypilot">
   </a>
   </p>
 

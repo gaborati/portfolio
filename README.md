@@ -46,7 +46,7 @@ https://gaborati.github.io/portfolio/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <h2 id="contact-author">Contact The Author</h2>
 
-### Attila Gábor (Ati)
+### Attila Lajos Gábor (Ati)
 
 [![Github Pages]](https://github.com/gaborati)
 [![LinkedIn]](https://www.linkedin.com/in/attila-lajos-gabor/)

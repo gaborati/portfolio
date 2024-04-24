@@ -38,7 +38,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="getting-started">Getting Started</h2>
+All you have to do is open the following link:
 
+https://gaborati.github.io/portfolio/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

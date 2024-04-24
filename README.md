@@ -7,9 +7,7 @@
 
 <h2 id="about-the-project">About The Project</h2>
 
-Survey Pilot is a place to easily generate online surveys and share them with others who can then take them. Users can
-seemlessly compose their surveys, add, edit and remove questions, descriptions, set question types (text, select, radio etc.)
-and then distribute the public url online.
+Through my personal portfolio, I would like to introduce some projects and work on which I worked.
 
 <details>
   <summary>Table of Contents</summary>

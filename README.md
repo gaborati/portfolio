@@ -33,7 +33,7 @@ Through my personal portfolio, I would like to introduce some projects and work 
 * [![PHP][PHP]][PHP-url]
 * [![Javascript][Javascript]][Javascript-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <h2 id="getting-started">Getting Started</h2>
 All you have to do is open the following link:
@@ -41,7 +41,7 @@ All you have to do is open the following link:
 https://gaborati.github.io/portfolio/
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <h2 id="contact-author">Contact The Author</h2>
 
 ### Attila Lajos Gábor (Ati)
@@ -50,7 +50,7 @@ https://gaborati.github.io/portfolio/
 [![LinkedIn]](https://www.linkedin.com/in/attila-lajos-gabor/)
 [![Gmail]](mailto:atidev1122gmail.com)
 
-<p align="right">(<a href="#about-the-project">back to top</a>)</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

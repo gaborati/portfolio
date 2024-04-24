@@ -28,7 +28,6 @@ Through my personal portfolio, I would like to introduce some projects and work 
 
 <h3 id="built-with">Built With</h3>
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][React-url]
 * [![Laravel][Laravel.com]][Laravel-url]

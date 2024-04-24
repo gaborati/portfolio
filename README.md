@@ -16,15 +16,12 @@ Through my personal portfolio, I would like to introduce some projects and work 
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#implemented-features">Implemented features</a></li>
       </ul>
     </li>
      <li>
        <a href="#getting-started">Getting Started</a>
       <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
      </li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact-author">Contact Authors</a></li>
   </ol>
 </details>
@@ -38,11 +35,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![PHP][PHP]][PHP-url]
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <h2 id="contact-author">Contact The Author</h2>
 
 ### Attila Gábor (Ati)

@@ -18,10 +18,10 @@ export const Projects = () => {
             githubLink: "https://github.com/CodecoolGlobal/bruteforce-java-gaborati"
         },
         {
-            title: "Survey",
-            description: "Full-stack application with PHP and React ",
+            title: "PersonalPortfolio",
+            description: "Personal portfolio source code",
             imgUrl: projImg3,
-            githubLink: "https://github.com/ori-123/surveypilot"
+            githubLink: "https://github.com/gaborati/portfolio"
         },
         {
             title: "Plantify",
@@ -29,6 +29,7 @@ export const Projects = () => {
             imgUrl: projImg2,
             githubLink: "https://github.com/CodecoolGlobal/el-proyecte-grande-sprint-1-java-Laszlo-Varga"
         },
+
     ];
 
     return (
